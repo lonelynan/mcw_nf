@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteBase /member
+RewriteRule ^(.*)$ control.php [PT,L]

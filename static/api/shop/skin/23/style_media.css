@@ -1,0 +1,80 @@
+@media all and (min-width:320px){
+	.banner{height: 131px;}
+	.left_img_dp img,.pro_img img{height:61px;}
+	.ggimg_two span img{height:81px;}
+	.left_product img{height: 90px;}
+	.gg_bg ul li a img{height:77px }
+	.gg_bg{height:186px }
+}
+@media all and (min-width:360px){
+	.banner{height: 147px;}
+	.left_img_dp img,.pro_img img{height: 70px;}
+	.ggimg_two span img{height: 92px;}
+	.left_product img{height: 102px;}
+	.gg_bg ul li a img{height:87px }
+	.gg_bg{height:208px }
+}
+@media all and (min-width:375px){
+	.banner{height: 154px;}
+	.left_img_dp img,.pro_img img{height:73px;}
+	.ggimg_two span img{height:96px;}
+	.left_product img{height: 107px;}
+	.gg_bg ul li a img{height:91px }
+	.gg_bg{height:216px }
+}
+@media all and (min-width:411px){
+	.banner{height: 168px;}
+	.left_img_dp img,.pro_img img{height: 80px;}
+	.ggimg_two span img{height: 106px;}
+	.left_product img{height: 117px;}
+	.gg_bg ul li a img{height:100px }
+	.gg_bg{height:236px }
+}
+@media all and (min-width:420px){
+	.banner{height: 172px;}
+	.left_img_dp img,.pro_img img{height: 82px;}
+	.ggimg_two span img{height:108px;}
+	.left_product img{height: 120px;}
+	.gg_bg ul li a img{height:102px }
+	.gg_bg{height:241px }
+}
+@media all and (min-width:435px){
+	.banner{height: 178px;}
+	.left_img_dp img,.pro_img img{height: 85px;}
+	.ggimg_two span img{height: 112px;}
+	.left_product img{height: 125px;}
+	.gg_bg ul li a img{height:106px }
+	.gg_bg{height:249px }
+}	
+@media all and (min-width:480px){
+	.banner{height: 196px;}
+	.left_img_dp img,.pro_img img{height:94px;}
+	.ggimg_two span img{height: 125px;}
+	.left_product img{height: 138px;}
+	.gg_bg ul li a img{height:118px }
+	.gg_bg{height:274px }
+}
+@media all and (min-width:560px){
+	.banner{height: 229px;}
+	.left_img_dp img,.pro_img img{height: 110px;}
+	.ggimg_two span img{height: 146px;}
+	.left_product img{height: 162px;}
+	.gg_bg ul li a img{height:138px }
+	.gg_bg{height:318px }
+}
+@media all and (min-width:640px){
+	.banner{height: 262px;}
+	.left_img_dp img,.pro_img img{height:127px;}
+	.ggimg_two span img{height: 168px;}
+	.left_product img{height: 186px;}
+	.gg_bg ul li a img{height:159px }
+	.gg_bg{height:362px }
+}
+@media all and (min-width:750px){
+	.banner{height: 307px;}
+	.left_img_dp img,.pro_img img{height: 133px;}
+	.ggimg_two span img{height: 198px;}
+	.left_product img{height: 219px;}
+	.gg_bg ul li a img{height:187px }
+	.gg_bg{height:423px }
+}

@@ -1,0 +1,67 @@
+.toggle-switch {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    width: 48px;
+    height: 28px;
+    border: 1px solid #dfdfdf;
+    outline: 0;
+    border-radius: 16px;
+    box-sizing: border-box;
+    background: #dfdfdf;
+}
+.toggle-switch:after, .toggle-switch:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 26px;
+    border-radius: 15px;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s,-webkit-transform .3s;
+}
+.toggle-switch:before {
+    width: 46px;
+    background-color: #fdfdfd;
+}
+.toggle-switch:after {
+    width: 26px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+.toggle-switch:checked {
+    border-color: #00ce9b;
+    background-color: #00ce9b;
+}
+.toggle-switch:checked:after {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+.toggle-switch:checked:before {
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
+
+.toggle-radio {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #999;
+}
+
+/*设置选中的input的样式*/
+/* + 是兄弟选择器,获取选中后的label元素*/
+input:checked+label { 
+    background-color: #fe6d32;
+    border: 1px solid #fe6d32;
+}

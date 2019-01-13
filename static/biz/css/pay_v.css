@@ -1,0 +1,55 @@
+/* CSS Document */
+*{margin:0px; padding:0px;}
+ul, li, dt, dd, ol, dl{list-style-type:none;}
+a{color:#666; text-decoration:none;}
+a:hover{color: #f42f2f}
+input, textarea, button, a{ -webkit-tap-highlight-color:rgba(0,0,0,0); }
+.l{float:left;}
+.r{float:right;}
+.clear{clear:both;}
+img{border:none;vertical-align: middle;}
+.left{float:left;}
+.right{float:right;}
+html{overflow-y: scroll;}
+body{background-color:#efeff4;-webkit-tap-highlight-color:transparent;font-size:14px; font-family:"Microsoft YaHei";}
+.w{width:100%; margin:0 auto;background: #fff;overflow: hidden}
+input[type=button], input[type=submit], input[type=file], button { cursor: pointer; -webkit-appearance: none;}
+.title_pay_v{ width: 100%; text-align: center; font-size: .4375rem; color: #333; margin:.625rem 0; }
+.title_pay_v p{font-size: .375rem; color: #777; line-height: .625rem;}
+
+.form_pay_v{width: 84%; padding:4% 2% 3%; margin: 0 auto; background: #fff; border: 1px #eee solid; border-radius: 8px; overflow: hidden; font-size: .4375rem; color: #333;}
+.form_pay_v span {display:inline-block; float:left;margin-top:2px;}
+.form_pay_v input{display:inline-block; float:right;border: 0;outline: none;width:60%;font-size: 1.25em; font-weight:bold; text-align:center;}
+.form_pay_v input::-webkit-input-placeholder { /* WebKit browsers */
+    font-weight:normal;
+}
+.form_pay_v input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-weight:normal;
+}
+.form_pay_v input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-weight:normal;
+}
+.form_pay_v input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-weight:normal;
+}
+
+#pay{width: 84%; padding:4% 2% 3%; margin: 15px auto 0; background: #fff; border: 1px #eee solid; border-radius: 8px; overflow: hidden; font-size: .4375rem; color: #333;}
+#pay .pay_tit {display:inline-block; float:left;margin-top:2px;}
+#pay .pay_money {display:inline-block; float:right;color:red;width:60%;font-size: 1.25em; text-align:center;}
+
+#errormsg{width: 100%;
+    text-align: center;
+    /*height: 30px;
+    line-height: 30px;*/
+    font-size: 18px;
+    color: #f00;
+    margin-top: 15px;
+    display: none;
+}
+
+.sub_pay_v{width: 88%;background: #06b00a; color: #fff; border:0; margin: .46875rem 6%; line-height: 1.09375rem;border-radius: 3px; font-size: .4375rem; height: 1.09375rem;}
+
+
+.activity{width:88%;margin:0 6%; text-align:center; font-size: .4375rem;background: #fff; padding:15px 0 10px; border-radius:10px; }
+.activity .tit { color:red; }
+.activity .con p { margin-top:10px; }

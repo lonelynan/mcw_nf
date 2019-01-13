@@ -1,0 +1,84 @@
+/* CSS Document */
+*{margin:0;padding:0;border:0;outline:0;box-sizing: border-box;background-repeat: no-repeat;background-position: center center;}
+ul, li, dt, dd, ol, dl{list-style-type:none;}
+a{color:#666; text-decoration:none;}
+a:hover{color: #006fbb;text-decoration:none;}
+input, textarea, button, a{ -webkit-tap-highlight-color:rgba(0,0,0,0); }
+.clear{clear:both;}
+img{border:none;display: block;}
+em{font-style: normal;}
+.left{float:left;}
+.right{float:right;}
+html{overflow-y: scroll;}
+body{background-color:#ffffff;-webkit-tap-highlight-color:transparent;font-family:"Microsoft YaHei"; font-size: 14px; }
+.w{width:100%; margin:0 auto;background: #fff;overflow: hidden}
+input[type=button], input[type=submit], input[type=file], button { cursor: pointer; -webkit-appearance: none;}
+
+.top_back{width: 100%; margin: 0 auto; border-bottom: 1px #eee solid; color: #444; font-size: 16px; line-height: 50px; padding: 0 2%; overflow: hidden; text-align: center; position: relative}
+.top_back span.left img{display: block; left: 10px; width: 30px;top: 10px; position: absolute;}
+.add_pt{padding: 15px 9px; overflow: hidden;}
+.add_l{display: block; padding: 0!important; position: relative;}
+.address_icon {
+    margin-right: 9px;
+    height: 21px;
+    width: 21px;
+    background: url(../images/../images/add.png) 50% 50% no-repeat;
+    background-size: 15px 20px;    position: absolute;
+    top: 1rem;
+}
+.address_go {
+	width: 9.75px;
+    height: 18px;
+    background: url(../images/../images/go.png) 50% 50% no-repeat;
+    background-size: 100%;    position: absolute;
+    top: -0.5rem;
+    right: .15625rem;
+}
+.add_l div.info{line-height: .9375rem;margin: 0 .9375rem;}
+.add_l div.info span{font-size: 16px; color: #333;}
+.add_l div.address_m{line-height: .625rem; color: #666; font-size: 14px;}
+.fenge{background: url(../images/order_q_03.png) repeat-x; height: 3px;}
+.logo_dp{padding: 15px 9px; overflow: hidden; line-height: 30px;}
+.logo_dp img{ display: block;width: 30px; height: 30px; float: left; margin-right: 10px;}
+.pro_dd{background: #fafafa; overflow: hidden;padding:9px; margin-bottom: 5px;}
+.pro_dd span.img_l{float:left;}
+.pro_dd span.img_l img{ display: block; float: left;border: 1px #ece8e5 solid; width: 2.8125rem; height: 2.8125rem;}
+.pro_dd span.main_l{float: left;width:6.25rem;  margin-left: .3125rem;}
+.pro_dd span.main_l p{color: #333; font-size: 14px; line-height: 22px; margin-bottom: 5px; height: 44px; overflow: hidden;}
+.pro_dd span.main_l div.shuxing{font-size: 12px; color: #666; line-height: 20px; margin-bottom: 5px; }
+.pro_dd span.main_l div.price_d{font-size: 18px; color: #ed1414; line-height: 30px;}
+.number_gm1{padding: 9px; border-bottom: 1px #f8f8f8 solid; overflow: hidden;font-size: 14px; }
+.number_gm1 span.right input.min{background: #f5f5f5;color: #666;display: inline-block;width: 32px;height: 32px; line-height: 32px;text-align: center;font-size: 22px; font-weight: normal;}
+.number_gm1 span.right input.add{background: #ccc;color: #666;display: inline-block;width: 32px;height: 32px; line-height: 32px;text-align: center;font-size: 22px; font-weight: normal;}
+.number_gm1 span.right input.text_box{width: 40px; text-align: center;display: inline-block; background: 0;color: #666;height: 32px; line-height: 32px;font-size: 14px; font-weight: normal;}
+.xiaoji{float: right;padding: 9px; }
+
+.number_gm{padding:9px; border-bottom: 1px #f8f8f8 solid; overflow: hidden;font-size: 14px; line-height: 32px; }
+.number_gm span.right input{width: 40px; text-align: center;font-size: 16px; line-height: 32px;display: inline-block; background: 0;}
+.number_gm span.right span{color: #666;display: inline-block;  height: 32px; line-height: 32px; text-align: center;font-size: 14px; font-weight: normal;}
+.number_gm span.right span.off{background: #f5f5f5; }
+.number_gm span.right span.btn{background: #ccc; }
+.jiage_sp{padding: 15px 9px;text-align: right; color: #333; margin-bottom: 80px;}
+.jiage_sp font{ color: #ed1414; margin-left: 5px;}
+.buy_or{background: #f8f8f8; overflow: hidden;position: fixed;bottom: 0;width: 100%; left: 0;z-index: 5; text-align: right; margin: 0 auto;}
+.buy_or input{background: #ed1414; color: #fff;display: inline-block; width: 120px; height: 50px; line-height: 50px; text-align: center; margin-left: 10px; font-size: 15px;}
+.buy_or font{ color: #ed1414; margin-left: 5px;}
+.container {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.container .logo_dp { padding:15px 0px; }
+.mobile {text-indent: 0.5em; height: 40px; line-height: 40px; width:100%;}
+.container .row {padding:15px 0px;}
+.remark {width:100%; height:40px; border:none; line-height:40px; text-indent: 0.5em;}
+input[type="checkbox"] { margin:0; }
+.red { color:#1fbba6; }
+
+
+
+
+
+
+
+
+

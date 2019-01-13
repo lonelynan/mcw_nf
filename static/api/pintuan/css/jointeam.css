@@ -1,0 +1,97 @@
+/* CSS Document */
+*{margin:0;padding:0;border:0;outline:0;box-sizing: border-box;background-repeat: no-repeat;background-position: center center;}
+ul, li, dt, dd, ol, dl{list-style-type:none;}
+a{color:#666; text-decoration:none;}
+a:hover{color: #fe0000;text-decoration:none;}
+input, textarea, button, a{ -webkit-tap-highlight-color:rgba(0,0,0,0); }
+.clear{clear:both;}
+img{border:none;}
+em{font-style: normal;}
+.left{float:left;}
+.right{float:right;}
+html{overflow-y: scroll;}
+body{background-color:#ffffff;-webkit-tap-highlight-color:transparent;font-family:"Microsoft YaHei"; font-size: 14px; }
+html::-webkit-scrollbar,
+body::-webkit-scrollbar{
+	width:0;
+	height:0;
+}
+.w{width:100%; margin:0 auto;background: #fff;overflow: hidden}
+input[type=button], input[type=submit], input[type=file], button { cursor: pointer; -webkit-appearance: none;}
+
+.head_ct{background: #fafafa;width: 100%; margin: 0 auto;line-height: 50px; height: 50px; color: #333; font-size: 16px; padding: 0 10px; border-bottom: 1px #e2e2e2 solid; overflow: hidden; position: fixed;z-index: 10;top:0; left: 0;}
+.head_ct a{color: #333;}
+.head_ct a img{ display: block; float: left; margin-right:5px; width: 30px;margin-top: 10px;}
+
+.pro_ct{background: #fff; overflow: hidden;padding:.15625rem;}
+.pro_ct span.img_l{float:left;}
+.pro_ct span.img_l img{ display: block; float: left;width: 3.25rem; height: 3.25rem;}
+.pro_ct span.main_l{float: left;width:5.9375rem;  margin-left: .3125rem;}
+.pro_ct span.main_l p{color: #333; font-size: 16px; line-height: 22px; margin-bottom: 5px; height: 44px; overflow: hidden;}
+.pro_ct span.main_l div.price_d{font-size: 18px; color: #ff0101; line-height: 25px; margin-top: .46875rem;}
+.pro_ct span.main_l div.price_d font{font-size: 12px; color: #999999; margin-left: 5px;}
+.pro_ct span.main_l div.tuan_ct{font-size: 12px; color: #999999;line-height: 20px;}
+
+.baozhang{width: 100%; margin: 0 auto; overflow: hidden;background: #fafafa;}
+.baozhang ul{}
+.baozhang ul li{ float: left;font-size: 14px; margin:12px 5px;}
+.baozhang ul li img{display: block; float: left;width:20px; margin-right: 3px; padding-left: 3px;}
+
+.team_over {width:100%;text-align:center;font-size:16px;color:#999;}
+.team_over img {width:100px;margin-top:20px;}
+
+.renshu_ct{width: 100%; margin:30px auto 10px; text-align: center}
+.renshu_ct span img{width: 50px; border-radius: 50%;}
+.renshu_ct span.tuanzhang{position: relative;}
+.renshu_ct span.tuanzhang p{position: absolute;top:-43px; left: -20px;}
+.renshu_ct span.tuanzhang p img{ border-radius: 0;width: 35px; }
+
+.ren_ct{ line-height: 35px; font-size: 16px; color: #333; text-align: center; position: relative;}
+.ren_ct span{margin-left: 30px;}
+.ren_ct font{color: #ff0000; font-weight: bold;}
+.ren_ct img {width: 24px;position: absolute; top:6px;}
+
+.daojishi{position: relative; width:95%; margin: 0 auto;}
+.daojishi p.line_l{border-bottom: 1px #ddd solid; position: absolute;width: 1.5625rem; top:15px;left:0;}
+.daojishi p.line_r{border-bottom: 1px #ddd solid; position: absolute;width: 1.5625rem; top:15px;right:0;}
+
+.colockbox{margin:10px auto; text-align: center;}
+.colockbox span{width: 30px; height:30px; line-height: 30px;text-align:center;color:#ffffff;background: #484848;font-size:16px; margin: 0 0.0625rem; display:inline-block; border-radius: 3px;}
+.colockbox{font-size: 16px; color: #333;line-height: 30px;}
+.cantuan_sub{width: 100%;padding:20px 2%; overflow: hidden;border-bottom: 10px #f8f8f8 solid;}
+.cantuan_sub a{display: inline-block;width: 100%; line-height: 40px; height: 40px; background: #ff0000; color: #fff; text-align: center; border-radius: 5px; font-size: 16px;}
+
+.guize{border-bottom: 10px #f8f8f8 solid;width: 100%; overflow: hidden;}
+.guize h2{line-height: 45px; height: 45px;border-bottom: 1px #eee solid; padding: 0 9px; font-size: 16px;font-weight: normal;width: 100%;}
+.guize h2 img {display: block; float: left; margin-right: 5px; width: 24px; margin-top: 11px;}
+.guize ul{ width: 90%; margin:15px auto; overflow: hidden;}
+.guize ul li{ line-height: 32px; font-size: 14px; color: #333;}
+.guize ul li img{display: block; float: left;width: 16px; margin-right: 5px; margin-top: 8px;}
+
+.tuijian_ct{width: 100%; overflow: hidden; margin: 10px 0;}
+.tuijian_ct .title{line-height: 45px; height: 45px;border-bottom: 1px #eee solid; padding: 0 9px;width: 100%; font-size: 16px;font-weight: normal;}
+.tuijian_ct .title img {display: block; float: left; margin-right: 5px; width: 24px; margin-top: 9px;}
+.tuijian_ct ul{background: #f1f1f1; overflow: hidden;}
+.tuijian_ct ul li{width: 49%; float: left; background: #fff; overflow: hidden; margin: 0 0.5% 5px;}
+.tuijian_ct ul li img{width: 100%; display: block; margin: 0 auto;}
+.tuijian_ct ul li a p{line-height: 20px; height: 40px; overflow: hidden; border: 0; color: #333; font-size: 16px; padding: 0 5px; margin: 8px 0;}
+.tuijian_ct ul li a div{padding: 0 5px;}
+.tuijian_ct ul li a span.left{color: #ff0000; font-size: 12px; line-height: 30px;}
+.tuijian_ct ul li a span.left font{font-size: 18px;}
+.tuijian_ct ul li a span.right{font-size: 12px; color: #666;line-height: 30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

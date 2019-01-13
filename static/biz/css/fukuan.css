@@ -1,0 +1,37 @@
+/* CSS Document */
+*{margin:0px; padding:0px;}
+ul, li, dt, dd, ol, dl{list-style-type:none;}
+a{color:#666; text-decoration:none;outline: none;}
+input, textarea, button, a{ -webkit-tap-highlight-color:rgba(0,0,0,0); }
+img{border:none}
+.l{float:left;}
+.ll img{max-width:120px;}
+.r{float:right;}
+.clear{clear:both;}
+img{border:none;}
+body{background-color:#f8f8f8; font: normal 100% Helvetica,"微软雅黑, Arial",sans-serif;-webkit-tap-highlight-color:transparent;}
+.w{width:100%; margin:0 auto;}
+.fukuan{ width:96%; overflow:hidden; border:1px #e8e8e8 solid; font-size:14px; color:#666; line-height:35px; text-indent:1em; margin:1%; padding:1%;}
+.tab_x{ width:96%; margin:1%; }
+.tab_x thead{ background:#ddd;}
+.tab_x tr{border: 1px solid #ddd;}
+.tab_x td{padding: 15px 5px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    empty-cells: show;
+    border-right: 1px solid #ddd;
+    font-size: 14px;}
+.tab_x tbody td input.labelauty + label{ width:80%; height:35px; text-align:center; line-height:35px;}
+.bg_img{ background:url(../images/fk_06.jpg) no-repeat; width:22px; height:22px;}
+.year{ width:96%; overflow:hidden; border:1px #e8e8e8 solid; font-size:14px; color:#666; line-height:35px; margin:1%;}
+.year .title{ background:#ccc; line-height:45px;}
+.year div ul{}
+.year div ul li input.labelauty + label{ float:left; margin:20px 15px; text-align:center;  }
+.year div ul li a{ background:#ccc; color:#666; padding:10px 35px;}
+.year div ul li a:hover{ background:#1fbba6; color:#fff; }
+.but_x{ margin:20px 0px; margin-left:1%;}
+.zhifu{color: #fff;
+    background-color: #1fbba6;
+	 padding:10px 35px;
+	 border: 1px solid transparent;}
+	 

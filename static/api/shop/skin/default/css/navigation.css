@@ -1,0 +1,48 @@
+.wraps{
+		width: 100%;
+	}
+	.navigation{
+    	width:25%;
+    	float: left;
+   		} 
+   	.navigation ul li{margin:0px; padding:0px; border-bottom: 1px solid #e0e0e0;/*border-right: 1px solid #e0e0e0;*/}
+	.navigation ul li a{ height:49px;  line-height:49px; font-size:14px;width: 100%;background-color:#fff;;color:#252525;text-align: center; display: block; text-decoration:none;}
+
+	.navigation ul li a:hover{background: #f8f8f8;color: #f15353;}
+	#action{border-left: 3px solid #e30101;background: #f8f8f8;color: #e30101;}
+
+	.navigation ul li img{float:right; margin:11px 10px 0px 0px;}
+   	.two_navigation{
+   		width: 74%;
+   		float:right;
+   	}  
+   	.two_navigation h4 a{font-size: 16px;margin: 0;padding: 10px 0 0 0;line-height: 1em;color: #888; margin-bottom: 10px;margin-top: 10px; display: block;}
+   	.two_product{
+   		width:100%;
+   	}
+	.two_product ul{}
+   	.two_product ul li{
+   		float: left;
+    width: 29%;
+    height: 90px;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #fff;
+    margin: 2% 2%;
+
+   	}
+   	.two_product ul li img{
+   		width:62px;
+   		height:62px;
+		    padding-top: 5px;
+   	}
+   	.two_product ul li span{
+   		width: 100%;
+	    height: 28px;
+	    line-height: 28px;
+	    display: block;
+	    font-size: 12px;
+	    color:#252525;
+   	} 
+	.bti_x{ font-size:14px; color:#666; line-height:20px;
+    margin-left: 5px;} 	   

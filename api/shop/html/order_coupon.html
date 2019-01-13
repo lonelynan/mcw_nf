@@ -1,0 +1,8 @@
+<ul class="list-group">
+	{{foreach from=$lists key=key item=v}}
+	<li class="list-group-item">
+    	  <input type="radio" class="coupon" name="CouponID[{{$v.Biz_ID}}]" value="{{$v.Coupon_ID}}" UseType="{{$v.Coupon_UseType}}" Price="{{$v.Price}}" bizid="{{$v.Biz_ID}}" check="0" />
+    {{$v.Subject}}
+    </li>
+    {{/foreach}}
+</ul>

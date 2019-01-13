@@ -1,0 +1,207 @@
+<?php
+if (isset($_SESSION['Users_ID']) && !empty($_SESSION['Users_ID'])) {
+	$Users_IDok = $_SESSION['Users_ID'];
+}elseif(isset($UsersID) && !empty($UsersID)){
+	$Users_IDok = $UsersID;
+}else{
+	$Users_IDok = $Users_ID;
+}
+//添加默认开关
+$onoff_data = array(
+		0 => array(
+			'Users_ID' => $Users_IDok,
+			'Perm_Name' => '二维码',
+			'Perm_Picture' => '/static/api/distribute/images/ewm1.png',
+			'Perm_Url' => '/api//distribute/popularize/',
+			'Perm_Tyle' => 1,
+			'Perm_Field' => 'barcode',
+		),
+		1 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '我的团队',
+				'Perm_Picture' => '/static/api/distribute/images/td.png',
+				'Perm_Url' => '/api//distribute/team/',
+				'Perm_Tyle' => 1,
+				'Perm_Field' => 'team',
+			),
+		2 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '财务明细',
+				'Perm_Picture' => '/static/api/distribute/images/cw_xx.png',
+				'Perm_Url' => '/api//distribute/detaillist/self/',
+				'Perm_Tyle' => 1,
+				'Perm_Field' => 'finance',
+			),
+		3 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '爵位晋升',
+				'Perm_Picture' => '/static/api/distribute/images/jw.png',
+				'Perm_Url' => '/api//distribute/pro_title/',
+				'Perm_Tyle' => 1,
+				'Perm_Field' => 'knighthood',
+			),
+		4 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '创始人中心',				
+				'Perm_Picture' => '/static/api/shop/skin/default/images/csr.png',
+				'Perm_Url' => '/api//shop/member/setting/',
+				'Perm_Tyle' => 1,
+				'Perm_Field' => 'salesman',
+			),
+		5 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '区域代理',
+				'Perm_Picture' => '/static/api/distribute/images/dl.png',
+				'Perm_Url' => '/api//distribute/area_proxy/',
+				'Perm_Tyle' => 1,
+				'Perm_Field' => 'area_agency',
+			),
+		6 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '股东分红',
+				'Perm_Picture' => '/static/api/distribute/images/fh_x.png',
+				'Perm_Url' => '/api//distribute/sha/',
+				'Perm_Tyle' => 1,
+				'Perm_Field' => 'shareholder',
+			),
+		7 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '财富排行榜',
+				'Perm_Picture' => '/static/api/distribute/images/cf.png',
+				'Perm_Url' => '/api//distribute/income_list/',
+				'Perm_Tyle' => 1,
+				'Perm_Field' => 'wealth',
+			),
+		8 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '领取商品',
+				'Perm_Picture' => '/static/api/distribute/images/lip.png',
+				'Perm_Url' => '/api//distribute/get_product/1/',
+				'Perm_Tyle' => 1,
+				'Perm_Field' => 'get_product',
+			),
+		9 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '自定义分享',
+				'Perm_Picture' => '/static/api/distribute/images/fxz_x.png',
+				'Perm_Url' => '/api//distribute/edit_shop/',
+				'Perm_Tyle' => 1,
+				'Perm_Field' => 'custom',
+			),
+		10 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '级别升级',
+				'Perm_Picture' => '/static/api/distribute/images/sj_xx.png',
+				'Perm_Url' => '/api//distribute/upgrade/',
+				'Perm_Tyle' => 1,
+				'Perm_Field' => 'grade',
+			),
+		11 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '提现',
+				'Perm_Picture' => '/static/api/distribute/images/578471497b.png',
+				'Perm_Url' => '/api//distribute/withdraw/',
+				'Perm_Tyle' => 1,
+				'Perm_Field' => 'withdraw',
+			),
+		12 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '积分',
+				'Perm_Picture' => '/static/api/shop/skin/default/images/jif.png',
+				'Perm_Url' => '/api//user/integral/',
+				'Perm_Tyle' => 2,
+				'Perm_Field' => 'integral',
+			),
+		13 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '余额',
+				'Perm_Picture' => '/static/api/shop/skin/default/images/yue.png',
+				'Perm_Url' => '/api//user/money/',
+				'Perm_Tyle' => 2,
+				'Perm_Field' => 'balance',
+			),
+		14 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '实体店消费单',
+				'Perm_Picture' => '/static/api/shop/skin/default/images/yue.png',
+				'Perm_Url' => '/api//user/money/',
+				'Perm_Tyle' => 2,
+				'Perm_Field' => 'oofline_orders',
+			),
+		15 => array(
+			'Users_ID' => $Users_IDok,
+			'Perm_Name' => '砍价订单',
+			'Perm_Picture' => '/static/api/shop/skin/default/images/kanjia.png',
+			'Perm_Url' => '/api//user/kanjia_order/status/2/',
+			'Perm_Tyle' => 2,
+			'Perm_Field' => 'kanjia',
+		),
+		16 => array(
+			'Users_ID' => $Users_IDok,
+			'Perm_Name' => '云购订单',
+			'Perm_Picture' => '/static/api/shop/skin/default/images/cloud.png',
+			'Perm_Url' => '/api//cloud/member/status/2/',
+			'Perm_Tyle' => 2,
+			'Perm_Field' => 'cloud',
+		),
+		17 => array(
+			'Users_ID' => $Users_IDok,
+			'Perm_Name' => '拼团订单',
+			'Perm_Picture' => '/static/api/shop/skin/default/images/pintuan.png',
+			'Perm_Url' => '/api//pintuan/orderlist/0/',
+			'Perm_Tyle' => 2,
+			'Perm_Field' => 'pintuan',
+		),
+		18 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '礼品兑换',
+				'Perm_Picture' => '/static/api/shop/skin/default/images/lip.png',
+				'Perm_Url' => '/api//user/gift/1/',
+				'Perm_Tyle' => 2,
+				'Perm_Field' => 'gift_exchange',
+			),
+		19 => array(
+			'Users_ID' => $Users_IDok,
+			'Perm_Name' => '优惠券',
+			'Perm_Picture' => '/static/api/shop/skin/default/images/yhj.png',
+			'Perm_Url' => '/api//user/coupon/1/',
+			'Perm_Tyle' => 2,
+			'Perm_Field' => 'coupon',
+		),
+		20 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '地址管理',
+				'Perm_Picture' => '/static/api/shop/skin/default/images/dizhi.png',
+				'Perm_Url' => '/api//user/my/address/',
+				'Perm_Tyle' => 2,
+				'Perm_Field' => 'address',
+			),
+		21 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '收藏夹',
+				'Perm_Picture' => '/static/api/shop/skin/default/images/shouc.png',
+				'Perm_Url' => '/api//shop/member/favourite/',
+				'Perm_Tyle' => 2,
+				'Perm_Field' => 'favorite',
+			),
+		22 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '退款/售后',
+				'Perm_Picture' => '/static/api/shop/skin/default/images/tuih.png',
+				'Perm_Url' => '/api//shop/member/backup/status/5/',
+				'Perm_Tyle' => 2,
+				'Perm_Field' => 'goods_returned',
+			),
+		23 => array(
+				'Users_ID' => $Users_IDok,
+				'Perm_Name' => '设置',
+				'Perm_Picture' => '/static/api/shop/skin/default/images/pz.png',
+				'Perm_Url' => '/api//shop/member/setting/',
+				'Perm_Tyle' => 2,
+				'Perm_Field' => 'settings',
+			)				
+	);
+		foreach ($onoff_data as $key=>$value) {
+			$DB->Add("permission_config",$value); 
+		}
+?>

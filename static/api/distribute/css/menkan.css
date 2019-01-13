@@ -1,0 +1,65 @@
+/* CSS Document */
+*{margin:0;padding:0;border:0;outline:0;box-sizing: border-box;background-repeat: no-repeat;background-position: center center;}
+ul, li, dt, dd, ol, dl{list-style-type:none;}
+a{color:#333; text-decoration:none;}
+a:hover{color: #fe0000;text-decoration:none;}
+input, textarea, button, a{ -webkit-tap-highlight-color:rgba(0,0,0,0); }
+.clear{clear:both;}
+img{border:none;}
+em{font-style: normal;}
+.left{float:left;}
+.right{float:right;}
+html{overflow-y: scroll;background:#ffffff;}
+body{background:#ffffff;-webkit-tap-highlight-color:transparent;font-family:"Microsoft YaHei"; font-size: 14px; }
+html::-webkit-scrollbar,
+body::-webkit-scrollbar{
+	width:0;
+	height:0;
+}
+.w{width:100%; margin:0 auto;background: #fff;overflow: hidden;}
+input[type=button], input[type=submit], input[type=file], button { cursor: pointer; -webkit-appearance: none;}
+
+.top_gl{background: #fff; border-bottom: 1px #f4f4f4 solid; line-height:50px; height: 50px; overflow: hidden;position: fixed;z-index: 2;top:0;width: 100%; text-align: center; color: #333; font-size: 16px;}
+.top_gl span.fanhui a{position: absolute; display: inline-block; left: 5px; top:11px; width: 50px;}
+.top_gl span.fanhui a img{ width: 28px; float: left; display: block;}
+.top_gl span.fanhui a span{ line-height: 28px; color: #666; display: block; float: left; font-size: 15px}
+
+.top_gg{width: 100%; margin: 50px auto 0; text-align: center;overflow: hidden;}
+.top_gg img{display: block;margin: 0 auto;width: 100%;}
+.title{background: #eeeeee;line-height: 38px; height: 38px; color: #333; font-size: 15px;padding: 0 15px;width: 100%;position: inherit;}
+.tequan{width: 100%; margin: 10px auto;padding: 0 15px;line-height: 30px; font-size: 14px; color: #666;}
+.tequan font{color: #ff6600}
+.tequan input{width: 100%; line-height: 40px; height: 40px;background: #f1f1f1; color: #666;padding: 0 5px;margin: 8px 0;}
+.tequan select{width: 100%; line-height: 40px; height: 40px;background: #f1f1f1; color: #666; text-align: center;padding: 0 5px;margin: 8px 0;}
+.menkan{width: 100%; margin: 20px auto;padding: 0 15px; overflow: hidden;}
+.menkan button{width: 100%; background: #ff6600; color: #fff; text-align: center; font-size: 15px;line-height: 45px;border-radius: 5px}
+.menkan button[status="1"]{ background: #ddd;}
+.menkan p { margin-top: 10px; color:#999; }
+.shenqing{width: 100%; margin:30px auto;padding: 0 15px;font-size: 14px; color: #666;}
+.shenqing p{line-height: 22px; margin: 10px auto;}
+.shenqing p font{ color: red}
+.title_pro{background: #eeeeee;line-height: 38px; color: #333; font-size: 15px;padding:3px 15px;}
+.title_pro font{color: red}
+.pro_list_mk{width: 100%; margin: 0 auto;overflow: hidden;}
+.pro_list_mk ul{}
+.pro_list_mk ul li{width: 50%; float: left;border-bottom: 2px #f4f4f4 solid;}
+.pro_list_mk ul li:nth-child(even){border-left: 2px #f4f4f4 solid;}
+.pro_list_mk ul li:nth-child(odd){border-right: 2px #f4f4f4 solid;}
+.pro_list_mk ul li img{display: block; margin: 0 auto;width: 100%;}
+.pro_list_mk ul li a p{line-height: 22px; height: 44px; overflow: hidden;color: #333;margin: 0 5px;}
+.pro_list_mk ul li a div.price{margin: 2px 5px; font-size: 12px; overflow: hidden;}
+.pro_list_mk ul li a div.price span.left{ color: red; line-height:25px;}
+.pro_list_mk ul li a div.price span.left font{font-size: 16px;}
+.pro_list_mk ul li a div.price span.right{background: #ff4848;padding: 2px 5px 1px; color: #fff;border-radius: 2px;  margin-top: 3px;}
+
+.tp_x img {
+	display: inherit;
+}
+
+#footer_points {
+	background: #fff;
+}
+
+body .layui-m-layer .layui-m-layer-msg {
+	background: #fff;
+}

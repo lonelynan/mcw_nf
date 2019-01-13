@@ -1,0 +1,38 @@
+/*  ==  == */
+.icon-step-list{
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+	background:#1fbba6;
+	width:20px;
+	height:20px;
+	border-radius:50%;
+}
+.step-list{padding-left:85px;}
+.step-list .icon-step-list{width:25px;height:25px;line-height:25px;background-position:0 -292px;}
+.step-list .step-item h4{font-size:16px;font-weight:400;}
+.step-list .step-inner{*zoom:1;border-top:1px solid #e6e7ec;padding:20px 0 25px;}
+.step-list .step-inner:after{content:"\200B";display:block;height:0;clear:both;}
+.step-list .step-inner:first-child{border-top:0;}
+.step-list .step-content{overflow:hidden;}
+.step-list .step-desc{font-size:14px;color:#7b7b7b;}
+.step-list .step-list-opr{margin-top:0.5em;margin-left:1em;float:right;}
+.step-list .step-list-opr a,.step-list .step-list-opr span{display:block;text-align:right;}
+.step-list .step-list-opr span{color:#7b7b7b;}
+.step-list .step-list-opr span.warn{color:#e15f63;}
+.step-list .step-list-opr .ico18-msg{margin-right:6px;}
+.step-list .step-list-opr .btn{min-width:8em;padding-left:0;padding-right:0;text-align:center;}
+.step-list .step-list-opr .btn-disabled{background:none;background-color:#d4d4d4;border-color:transparent;}
+.step-list .step-box{position:relative;margin-top:30px;margin-bottom:30px;padding:0 20px;min-height:56px;border:1px solid #e6e7ec;}
+.step-list .step-box .arrow-main-box{position:absolute;left:-7px;top:20px;}
+.step-list .step-box .arrow-out{display:inline-block;width:0;height:0;border-width:7px;border-style:dashed;border-color:transparent;border-left-width:0;border-right-color:#e6e7ec;border-right-style:solid;position:absolute;left:-1px;}
+.step-list .step-box .arrow-in{display:inline-block;width:0;height:0;border-width:7px;border-style:dashed;border-color:transparent;border-left-width:0;border-right-color:#ffffff;border-right-style:solid;position:absolute;}
+.step-list .icon-step-main-box{position:absolute;left:-55px;top:13px;}
+.step-list .icon-step-list{text-align:center;font-weight:400;color:#ffffff;font-size:16px;}
+.step-list .icon-step-line{position:absolute;background-color:#e6e7ec;width:3px;left:-44px;}
+.step-list .icon-step-line-up{height:30px;top:-17px;}
+.step-list .no-extra-up .icon-step-line-up{display:none;}
+.step-list .icon-step-line-down{height:100%;top:35px;}
+.step-list .no-extra-down .icon-step-line-down{display:none;}
+
+

@@ -1,0 +1,24 @@
+#footer{height:50px; border-top:1px solid #f8f8f8; width:100%; margin:0 auto; position:fixed; z-index:1000; bottom:0; background:#fff}
+#footer ul#footer-nav li{height:50px; padding-top:0px; width:25%; float:left;}
+#footer ul#footer-nav li span{ position: relative;}
+#footer ul#footer-nav li b {
+    background: red;
+    border-radius: 50%;
+    display: block;
+    height: 15px;
+    position: absolute;
+    left: 14px;
+    top: 2px;
+    width: 15px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+    color: #ffffff;
+    font-style: normal;
+}
+#footer ul li>a{color:#666; line-height:80px; font-size:12px; width:45px; height:40px; margin:0 auto; display:block; white-space:nowrap; text-align:center; text-decoration:none; }
+#footer ul li.sitemap a{background:url('/static/api/distribute/images/sitemap.png') center 8px no-repeat; text-align:center; text-indent:0px; background-size:27px 25px;}
+#footer ul li.home a{background:url('/static/api/distribute/images/home.png') center 6px no-repeat; background-size:27px 27px;}
+#footer ul li.cart a{background:url('/static/api/distribute/images/cart.png') center 6px no-repeat; background-size:27px 27px;}
+#footer ul li.user a{background:url('/static/api/distribute/images/user.png') center 7px no-repeat; background-size:27px 29px;}
+#footer ul li.cate1 a{background:url('/static/api/distribute/images/cate.png') center 8px no-repeat; background-size:23px 23px;}

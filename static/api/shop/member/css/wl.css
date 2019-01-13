@@ -1,0 +1,83 @@
+/* CSS Document */
+*{margin:0px; padding:0px;}
+ul, li, dt, dd, ol, dl{list-style-type:none;}
+a{color:#666; text-decoration:none;}
+a:hover{color: #f42f2f}
+input, textarea, button, a{ -webkit-tap-highlight-color:rgba(0,0,0,0); }
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+img{border:none;vertical-align: middle;}
+.left{float:left;}
+.right{float:right;}
+html{overflow-y: scroll;}
+body{background-color:#f8f8f8;-webkit-tap-highlight-color:transparent;font-size:14px; font-family:"Microsoft YaHei";}
+.w{width:100%; margin:0 auto;overflow: hidden}
+input[type=button], input[type=submit], input[type=file], button { cursor: pointer; -webkit-appearance: none;}
+.back_wl{background: #f8f8f8; overflow: hidden;line-height: 45px;color: #666;text-align: center; padding: 0;z-index: 100;width: 100%; top: 0;}
+.back_wl span{    position: absolute;left: 15px;}
+.back_wl a{position: absolute;}
+.back_wl a i{line-height: 45px;padding-left: 5px;}
+.pro_bg_wl{ background: #fff; overflow: hidden; padding:10px;}
+.pro_bg_wl span.img_wl img{ border-radius:5px;}
+.pro_bg_wl span.main_wl{ line-height: 28px; color: #666; font-size: 14px; margin-left: 10px;}
+.pro_bg_wl span.main_wl p span img{display: block; float: right; margin:0px;}
+.wl_list {
+    padding-left:45px;
+    margin-bottom: 50px;
+}
+.wl_list li {
+    position: relative;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    padding: 0 8px;
+    padding-top: 5px;
+}
+.wl_list li p{line-height:25px; color: #666;}
+.wl_list .icon-step-line-up {
+    height: 30px;
+    top: -17px;
+}
+.wl_list .icon-step-line {
+    position: absolute;
+    background-color: #e4e4e4;
+    width: 3px;
+    left: -22px;
+}
+.wl_list .icon-step-line-down {
+    height: 100%;
+    top: 24px;
+}
+.wl_list .icon-step-line {
+    position: absolute;
+    background-color: #e4e4e4;
+    width: 3px;
+    left: -22px;
+}
+.wl_list .icon-step-main-box {
+    position: absolute;
+    left: -28px;
+    top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    background: #cbcbcb;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.wl_list .icon-step-main-box1 {
+    position: absolute;
+    left: -28px;
+    top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    background: #1fb4f8;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.comments_bottom{position: fixed;bottom: 0;z-index: 2; width: 100%; margin: 0 auto; text-align: right; margin-bottom: 20px;}
+.comments_bottom a{background: #de2337; padding:8px 30px; color: #fff; margin-right: 20px; margin-bottom: 20px; border-radius: 3px;}

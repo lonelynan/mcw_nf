@@ -1,0 +1,58 @@
+.menu_visit{border:1px solid #ddd; padding:8px; margin-bottom:10px;}
+.menu_visit dl{float:left; width:150px; margin-right:50px;}
+.menu_visit dl dt{border-bottom:1px solid #ddd; margin-bottom:5px; padding-bottom:3px; font-weight:bold; text-indent:2px; color:#555;}
+.menu_visit dl dd{font-size:12px; padding-left:2px; line-height:150%;}
+.menu_visit dl span{font-size:12px; color:#ff6600;}
+
+.chart_btn{width:100%; height:40px; line-height:40px; text-align:right;}
+.chart_btn .tab_bar{margin-right:20px}
+.chart_btn .tab_bar span{color:#333;}
+.chart_btn .tab_bar:hover{ text-decoration:none}
+.chart_btn .tab_bar:hover span{ color:inherit}
+
+.r_con_table .img{width:90px; max-height:90px;}
+
+/*edit数据统计20160415--start--*/
+*{margin:0px; padding:0px;}
+ul, li, dt, dd, ol, dl{list-style-type:none;}
+a{color:#333; text-decoration:none;}
+a:hover{color:#666;}
+.l{float:left;}
+.r{float:right;}
+.clear{clear:both;}
+img{border:none;}
+body{background-color:#FFF; font-size:14px; line-height:26px; font-family:"宋体";}
+.w{width:1660px; margin:0 auto;}
+.t{font-size:18px; line-height:35px; font-family:"微软雅黑"；}
+.bg{}
+.bg ul{margin-top:10px;}
+.bg ul li{background-color:#f5fbff;
+      width:205px; height:105px;
+	   border:1px #e5efff solid; 
+	    padding-left:10px;
+		padding-top:10px;}
+.t1{ color:#999;}
+.t2{ margin-top:5px;}
+.p{ background-color:#4074c5;
+       width:15px;
+	   height:3px;
+	   margin-left:10px;
+	   margin-top:20px;}
+.ss{margin-top:20px; line-height:34px;}
+.xz{margin-left:20px;}
+.xz ul{ margin-left:15px;}
+.xz ul li{width:80px;
+             background-image:url(../images/tj_10.png);
+			 background-repeat:no-repeat;
+			 background-position:left;
+			 height:34px;
+			 padding-left:20px;}
+.baogao{background-color:#44aaff;
+             width:115px;
+			 line-height:40px;
+			 font-size:18px;
+			 font-family:"微软雅黑";
+			 text-align:center;
+			 color:#fff;
+			 margin:20px 0px;}
+/*edit数据统计20160415--end--*/

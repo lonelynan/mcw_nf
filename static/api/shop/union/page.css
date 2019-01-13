@@ -1,0 +1,73 @@
+@charset "utf-8";
+*{margin:0px; padding:0px;}
+body{background:#f6f6f6; font-family:"宋体"}
+.clear{clear:both;}
+.left{float:left;}
+.right{float:right;}
+#shop_skin_index{width:100%; overflow:hidden; margin:0 auto;}
+#shop_skin_index .img img{width:100%; height:100%;}
+#shop_skin_index .shop_skin_index_list{overflow:hidden; position:relative; z-index:1;height:70px;}
+#shop_skin_index .img_xx{width: 50%;float: left;}
+#shop_skin_index .banner *{width:100%; height:100%; overflow:hidden;}
+
+.header {
+    background: #ff5500 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 14px;
+    height: 42px;
+    line-height: 40px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.header span {
+    cursor: pointer;
+    display: block;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    width: 40px;
+}
+.header .header_city{left:5px;}
+.header .header_user {
+    
+    right: 5px;
+}
+.header .search {
+    height: 42px;
+	line-height:42px;
+    width:70%;
+	margin:0 auto;
+	position:relative;
+	left: 2%;
+}
+.header .search .search_input{width:90%;height:30px;line-height:30px;border:none;border-radius:15px;padding-left:10px;background: rgba(255, 255, 255, 0.8) url(search.png) 95% center no-repeat;outline:none}
+.header .search .submit{position:absolute;width:30px;height:40px;right:0px;top:0;background:none;border:none;}
+#shop_skin_index .moudle_list {background-color:#ffffff;border-bottom:1px solid #eee;overflow:hidden;padding-top:10px;}
+#shop_skin_index .moudle_list .box{float:left;width:20%;text-align:center;text-decoration:none;}
+#shop_skin_index .moudle_list .box .container{text-align:center;margin:5px 0;padding:0px}
+#shop_skin_index .moudle_list .box .radius{margin:3px auto;height:40px;width:40px;}
+#shop_skin_index .recommend {background-color:#FFF;margin-top:5px;}
+#shop_skin_index .recommend li {overflow:hidden;padding:5px 0;}
+#shop_skin_index .recommend .index_title{padding:6px 0; border-bottom:5px #f8f8f8 solid;height:26px;line-height:26px;margin:0;}
+#shop_skin_index .recommend .index_title span.left{border-left: 3px #ff3600 solid;text-indent: 0.8em;font-size:15px;}
+#shop_skin_index .recommend .index_title span.right{padding-right:5px; float:right}
+#shop_skin_index .recommend ul li {border-bottom:1px solid #eee;}
+#shop_skin_index .recommend ul li.item2{ background:#fff; overflow:hidden;border-bottom:2px solid #f8f8f8;}
+#shop_skin_index .recommend ul li span{float:left;}
+#shop_skin_index .recommend ul li span h2{font-size:16px;}
+#shop_skin_index .recommend ul li span.img_logo{width: 22%;}
+#shop_skin_index .recommend ul li span.img_logo img{width:90%;padding: 1% 5%;}
+#shop_skin_index .recommend ul li span.content{width: 74%;padding: 0 2%;}
+#shop_skin_index .recommend ul li span.content h2{color:#333;line-height: 20px;max-height: 20px;overflow: hidden;}
+#shop_skin_index .recommend ul li span.content p{color:#999; font-size:12px;}
+#shop_skin_index .recommend ul li span.content span{color:#EA0C0C;}
+#shop_skin_index .recommend ul li span.content span img{ width:69px; height:12px;}
+#shop_skin_index .recommend ul li span.content p.address_x{line-height:22px;-webkit-margin-before:0px;-webkit-margin-after:0px;-webkit-margin-start:0px; font-size:13px;width: 55%;float: left;height:22px; overflow:hidden;}
+#shop_skin_index .recommend ul li span.content span.title_x{width: 75%;float:left; color: #333;}
+#shop_skin_index .recommend ul li span.content span.distance {width: 25%;float:right;text-align: right;font-size: 12px;  color: #666;}
+#shop_skin_index .recommend ul li span.content span.quan_x{float:left;background: #ff6600;width: 15px;height: 15px;border-radius: 5px;color: #fff;text-align: center;line-height: 15px;font-size: 10px; margin-top:2px}
+#shop_skin_index .recommend ul li span.content span.activity{float:left;font-size: 12px;line-height:20px;color: #999;text-indent: 0.5em;}
+#shop_skin_index .recommend ul li span.content span.fen_x{float:left;background: #1bcaef;width: 15px;height: 15px;border-radius: 5px;color: #fff;text-align: center;line-height: 15px;font-size: 10px; margin-top:2px}
+#shop_skin_index .recommend ul li span.content .price{color:red;}

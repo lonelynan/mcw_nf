@@ -1,0 +1,35 @@
+html,body{background:#FFF}
+#list_title{width:100%; height:40px; line-height:40px; text-indent:15px; font-size:16px; background:#eb4143; color:#FFF; overflow:hidden}
+#list_title span{float:right; font-size:12px; display:none; padding-right:5px;}
+#bizlist{margin:0 auto; width:100%;}
+#bizlist .items{width:100%; border-bottom:1px #efefef solid; position:relative; min-height:90px;padding:8px 0;}
+#bizlist .items a:hover{text-decoration:none}
+#bizlist .items .img{width:90px; max-height:90px; overflow:hidden; position:absolute; left:8px; top:8px}
+#bizlist .items .img img{width:100%; height:100%; display:block}
+#bizlist .items ul{margin:0px 0px 0px 108px; width:40%; padding:0px; list-style:none}
+#bizlist .items ul li{display:block; width:100%; overflow:hidden}
+#bizlist .items ul li img{padding-top:6px;}
+#bizlist .items ul li span{color:red; font-size:16px;}
+#bizlist .items ul li.title{ color:#333; font-size:16px;}
+#bizlist .items ul li.category{height:18px; line-height:18px; color:#999; font-size:12px;}
+#bizlist .items ul li.region{height:18px; line-height:18px; color:#999; font-size:12px;}
+#bizlist .items .buyinfo{position:absolute; top:10px; right:8px; width:100px; height:60px; text-align:right;}
+#bizlist .items .buyinfo span{display:block; width:100%; line-height:20px; font-size:12px; color:#999; text-align:right}
+#bizlist .items .buyinfo span i{font-style:normal; font-size:18px; font-family:"Times New Roman"; color:#F60}
+#bizlist .items .buyinfo span.price{height:40px;}
+#bizlist .items .buyinfo span.route{height:20px;}
+
+#bizlist .nodata{height:80px; line-height:80px; font-size:14px; color:#999; text-align:center; width:100%}
+#div_load_flag{display:none}
+
+#cover_layer_search{width:100%; position:absolute; top:0px; left:0px; background:rgba(0,0,0,0.6); z-index:9998; display:block}
+#loading{position:absolute; height:80px; width:80px; background:#FFF; border-radius:8px; z-index:9999; display:block}
+#loading img{width:60px; height:60px; display:block; margin:10px auto 0px}
+
+#list_pages{width:100%; padding:15px 0px}
+#list_pages ul{list-style:none; width:170px; margin:0px auto}
+#list_pages ul li{width:60px; margin-right:8px; height:22px; border:1px #099fde solid; border-radus:5px; line-height:22px; font-size:12px; color:#099fde; text-align:center; float:left}
+#list_pages ul li span{display:block; width:100%; height:22px; line-height:22px; font-size:12px;}
+#list_pages ul li.cur{width:30px; border:none; font-size:14px;}
+#list_pages #next{margin-right:0px;}
+#list_pages .past{border:1px #efefef solid; color:#999;}

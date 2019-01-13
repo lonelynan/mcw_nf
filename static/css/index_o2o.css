@@ -1,0 +1,202 @@
+*{margin:0px; padding:0px;}
+ul, li, dt, dd, ol, dl{list-style-type:none;}
+a{color:#333; text-decoration:none;}
+input, textarea, button, a{ -webkit-tap-highlight-color:rgba(0,0,0,0); }
+.l{float:left;}
+.r{float:right;}
+.clear{clear:both;}
+img{border:none;}
+body{background-color:#eeeeee;  font: normal 100% Helvetica,"微软雅黑",sans-serif;-webkit-tap-highlight-color:transparent;font-size:14px}
+.w{width:100%; margin:0 auto;}
+.head{ background:#ff5000; overflow:hidden; height:40px; line-height:40px; color:#fff; padding:0 5px}
+.head .address{ width:18%;}
+.head .address a{ color:#fff;}
+.head .address a i{font-size: 18px;    padding-left: 5px;}
+.head .box{ text-align:center; width:70%;}
+.head .sousuo_x{ line-height:28px;font-size:14px; width:100%;
+           background:url(../images/ss.png) no-repeat left;
+		   background-size:14px 14px;
+		   text-indent:18px;
+		   background-color:#fff;
+       border-radius:5px;
+	   border:none;}
+.head .news{ text-align:center; width:12%;}
+.head div i{position: relative; line-height:40px}
+.head .car_num{background: #fff;
+    border-radius: 50%;
+    display: block;
+    height: 15px;
+    position: absolute;
+    top: 5px;
+    width: 15px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+    color: #ff5000;
+    font-style: normal;
+	right:-7px;}
+	.page-swipe{ background:#fff; padding-bottom:5px;border-bottom: 5px #f8f8f8 solid;}
+    .swipe {  
+        overflow: hidden;  
+        visibility: hidden;  
+        position: relative;  
+    }  
+    .swipe-wrap {  
+        overflow: hidden;  
+        position: relative;  
+    }  
+    .swipe-wrap > figure {  
+        float: left;  
+        width: 100%;  
+        position: relative;  
+    }  
+    #slider {  
+        /* max-width: 650px;设置最大的宽度 */  
+        margin: 0px auto; /* 居中对齐 */  
+    }  
+  
+    figure {  
+	
+        margin: 0;/* 对齐，四周宽度都为0，在轮播的时候，以整张图片进行移动 */  
+
+    }  
+    div.swipe {  
+    /* border: 1px solid blue; */  
+}  
+.page-swipe #nav #position {  
+    text-align: center;  
+    list-style: none;  
+    margin: 0;  
+    padding: 0  ;
+    line-height:10px  
+}  
+.page-swipe #nav #position li {  
+    display: inline-block;  
+    width: 10px;  
+    height: 10px;  
+    border-radius: 10px;  
+    margin: 0 2px;  
+    cursor: pointer;  
+    display:inline-block;
+	margin-right:3px;
+	background-color:#ccc;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	width:8px;
+	height:8px  
+}  
+.page-swipe #nav #position li.on {  
+    background-color:#ff5001  
+}  
+  .swipe-wrap{}
+    .swipe-wrap ul{ margin-top:10px;margin-bottom: 3px;}
+	.swipe-wrap ul li{ width:20%; float:left; text-align:center; margin:3px 0; color:#666}
+	.swipe-wrap ul li p{ line-height:28px; margin:0 auto; max-height:28px; overflow:hidden}
+	
+.nav_lb {
+    background: none repeat scroll 0 0 #fff;
+    position: relative;
+    margin-bottom: 5px;
+	margin-top: 5px;
+}
+.nav_lb:before {
+    border-bottom: 1px solid #dfdfdf;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;}
+.nav_list {
+    overflow: hidden;}
+.nav_list li {
+    display: inline-block;
+    position: relative;
+    width: 49.8%;
+    text-align: left;
+	padding-top:2%;
+	padding-bottom:2%;
+	line-height:30px;
+	height:60px;
+	overflow:hidden;
+	text-indent:0.5em
+}
+.nav_list li a span p{ color:#666;font-size: 12px; max-height:30px; overflow:hidden}
+.nav_list li a span.title{width:60%;}
+.nav_list li a span.imgs{ width:40%; text-align:center}
+.nav_list li a span img{ width:60px;height:60px;}
+.nav_list li:before {
+    border-left: 1px solid #efefef;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;}
+.nav_list li:after {
+    border-bottom: 1px solid #efefef;
+    bottom: -.5px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+.nav_list:after {
+    border-bottom: 1px solid #dfdfdf;
+    bottom: -.5px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+.s_list{ margin-bottom:5px; overflow:hidden;}
+.s_list p { height:36px; background:#fff; overflow:hidden; border-bottom:1px #eee solid;}
+.s_list p span.l{
+line-height:26px; margin:5px 0px;
+border-left:3px #ff3600 solid;
+color:#666; text-indent:1em;}
+.s_list p span.r{
+line-height:36px;
+color:#999; font-size:13px;
+margin-right:5px;}
+.s_list ul{}
+.s_list ul li{ width:30.3%; background:#fff; margin:0 0.5%; padding:1%; overflow:hidden; float:left; line-height:24px}
+.s_list ul li img{ width:100%;}
+.s_list ul li .price{color:#ff3600; font-size:15px;}
+.s_list ul li .buy{background:#ff3600; border-radius:3px; padding:0px 6px; color:#fff; line-height:20px; font-size:13px;}
+.s_list ul li .peo_x{ width:50%; background:#333; color:#fff; text-align:center; line-height:20px; font-size:13px;}
+.s_list ul li .join{ width:50%; background:#ff3600; color:#fff; text-align:center; line-height:20px; font-size:13px;}
+.near{ line-height:30px; margin-bottom:5px; color:#333; text-indent:1em; font-size:16px; font-weight:600;}
+.merchants{}
+.merchants ul{}
+.merchants ul li{ background:#fff; overflow:hidden; padding:1%; margin-bottom:5px}
+.merchants ul li .photo_x{ width:22%;}
+.merchants ul li .photo_x img{ width:90%; padding:1% 5%;}
+.merchants ul li .details{ width:74%; padding:0 2%;}
+.merchants ul li .details  p{ line-height:25px; max-height:25px; overflow:hidden;}
+.merchants ul li .details  p span.title_x{ width:80%;}
+.merchants ul li .details  p span.distance{ width:20%; text-align:right; font-size:12px; color:#666}
+.merchants ul li .address{color:#666; font-size:13px; line-height:20px; border-bottom:1px #eee solid; overflow:hidden;}
+.merchants ul li .jian{ background:#fd6d2c; width:20px; height:20px; border-radius:5px; color:#fff; text-align:center; line-height:20px; font-size:12px; margin-top:5px;}
+.merchants ul li .activity{ font-size:13px; line-height:20px; color:#999; margin-top:5px; text-indent:0.5em;}
+.merchants ul li .zhe{ background:#1bcaef; width:20px; height:20px; border-radius:5px; color:#fff; text-align:center; line-height:20px; font-size:12px; margin-top:5px;}
+.kb{ margin-top:50px;}
+.bottom{ position:fixed; width:100%; bottom:0px; left:0; overflow:hidden; z-index:9999; border-top:1px #f4f4f4  solid; background-color:#fff;}
+.footer{  width:100%;  margin:0 auto; overflow:hidden;
+		   }
+.footer ul li{ float:left; width:25%; 
+				  text-align:center;
+				    font-size:13px;
+					padding-bottom: 5px; 
+				   }
+.footer ul li a{ color:#666;}
+.footer ul li a i{ font-size:19px;}
+
+
+
+
+
+
+
+
+
+
+

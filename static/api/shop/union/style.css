@@ -1,0 +1,16 @@
+@charset "utf-8";
+/*index*/
+#search_type{width:100%;height:40px;overflow:hidden;border-bottom:solid 1px #bfbfbf;background:#ffffff;}
+#search_type .search_type_li{width:24%;float:left; height:100%; line-height:40px; text-align:center;}
+#search_type .search_type_li a{font-size:15px;color:#666666;background:url(../default/3_ico.png) no-repeat right center; padding:0 15px 0 0; }
+#search_type .search_type_li .cur{font-weight:600;color:#F60;}
+/*底部藏雷*/
+#index_filter{position:fixed; bottom:0px; width:100%; height:auto; left:0px; z-index:9999; display:none; background:#f5f5f5; padding-bottom:10px}
+#index_filter .filter_items h2{width:95%; height:30px; line-height:40px; font-size:14px; font-weight:normal; color:#333; margin:0px auto; padding:0px; text-indent:15px;}
+#index_filter .filter_items ul{width:95%; padding:0px; margin:0px auto;overflow:hidden;}
+#index_filter .filter_items ul li{width:25%; height:40px; line-height:40px; box-sizing:border-box; border:1px #efefef solid; border-left:none; float:left; font-size:12px; text-align:center; margin-top:8px;}
+#index_filter #level_list ul li{width:33.333%}
+#index_filter .filter_items .cur{background:#099fde; color:#FFF}
+#filter_submit{width:95%; margin:10px auto 0px; background:#F60; height:32px; line-height:32px; text-align:center; border-radius:5px; font-size:14px; color:#FFF}
+
+#cover_layer_common{width:100%; position:absolute; top:0px; left:0px; background:rgba(0,0,0,0.6); z-index:9998; display:none}
